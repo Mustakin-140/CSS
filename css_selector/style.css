@@ -1,0 +1,26 @@
+/*universal selector*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*tag selector
+button{
+    color: red;
+}*/
+
+/*class selector*/
+.para{
+    color:red;
+}
+
+/*id selector*/
+#btn{
+    color: red;
+}
+
+/*Attribute selector*/
+[href="https://google.com"]{
+    color: red;
+}
