@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 10px 10px 10px red;
+}
+.para-1{
+    font-weight: 900;
+    opacity: 1;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.para-2{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-align: justify;
+    color: orange;
+}

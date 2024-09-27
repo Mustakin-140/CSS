@@ -1,0 +1,32 @@
+/* ul,ol{
+    border: 1px solid black;
+    list-style-type:square;
+    list-style-position: inside;
+    list-style-image: url(./images.png) ;
+}
+
+ul li{
+    border: 1px solid red;
+} */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap:10px
+}
+/* ul li{
+
+} */
+ul li a{
+    display: inline-block;
+    background-color: cadetblue;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+ul li a:hover{
+    background-color: rgb(36, 64, 65);
+}

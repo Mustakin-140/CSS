@@ -1,0 +1,38 @@
+/* a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    color: green;
+}
+a:visited{
+    color: yellow;
+} */
+
+a.seu{
+    text-decoration: none;
+    background-image: linear-gradient(to right,red,yellow);
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+a.seu:hover{
+    background-image: linear-gradient(to left, red, yellow);
+} 
+
+.btn-primary{
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(75, 153, 226);
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(75, 153, 226);
+}
+.btn-primary:hover{
+    background-color: rgb(75, 153, 226);
+    color: #fff ;
+}

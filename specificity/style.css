@@ -1,0 +1,17 @@
+.para{
+    color: black;
+}
+div>p.para{
+    color: red;
+}
+#heading{
+    color: purple;
+}
+
+h1{
+    color: cyan;
+}
+
+div>div>div>div>div>p{
+    color: red;
+}

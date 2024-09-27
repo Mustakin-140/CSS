@@ -1,0 +1,10 @@
+/*custom font*/
+@font-face{
+    font-family:Motion Picture;
+    src:url(./MotionPicture_PersonalUseOnly.ttf);
+}
+
+h1{
+    text-transform: capitalize;
+    font-family:Motion Picture;
+}
